@@ -1,0 +1,133 @@
+body{
+
+    background-color: rgb(249, 248, 255);
+
+}
+
+#logo{
+    text-align: center;
+    width: 100%;
+    img{
+        width: 40%;
+        border-radius: 50%;
+        border: 2px solid black;
+        max-width: 400px;
+    }
+    p{
+
+        font-size: 18px;
+        margin: 7px;
+    }
+    #pomposo{
+        
+        font-size: 35px;
+        background: linear-gradient(blueviolet, black);
+        -webkit-background-clip: text;
+        color: transparent;
+        margin: 10px;
+
+    }
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+}
+
+hr{
+
+    background: blueviolet;
+    color: transparent;
+    height: 3px;
+
+}
+
+#publicaciones{
+
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+ 
+.publicacion{
+
+   
+    
+    img{
+
+        height: 45%;
+        width: 100%;
+
+    }
+    p{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+
+    }
+
+}
+a{
+    text-decoration: none;
+    width: 20%;
+    margin: 1%;
+
+}
+a:visited{
+
+    color: black;
+
+}
+a:hover{
+
+    transition: 0.5s;
+    transform: scale(1.1);
+    text-decoration: underline;
+
+}
+@media (max-width: 800px){
+
+    a{
+
+        width: 48%;
+
+    }
+
+    
+
+}
+
+#encabezado{
+
+    
+    
+    background-color: rgb(33, 2, 68);
+    border: 2px solid black;
+    p{
+
+        font-size: 1.2rem;
+        text-align: center;
+        color: white;
+    }
+    
+
+}
+#tema{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+    a{
+        border-radius: 50%;
+        flex-wrap: wrap;
+        text-align: center;
+        border: 1px solid black;
+        background: linear-gradient(rgb(162, 84, 235), rgb(212, 143, 189));
+        
+    }
+
+}
+
+

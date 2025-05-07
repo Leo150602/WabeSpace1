@@ -1,0 +1,160 @@
+#parte_1{
+
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+#zona_a{
+
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%; 
+    height: 70px;
+    border: 1px solid #003742; 
+    background: linear-gradient( #003742, #005f73 );justify-content: space-between; 
+
+}
+.titulo{
+
+    margin: 5px 0px 0px 10px;
+    font-size: 20px;
+    color: black;
+    font-family: Arial;
+
+}
+.imagen{
+
+    width: 70px; 
+    object-fit: cover;
+
+}
+
+.imagen img{
+
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    margin: 0px; 
+    border: 2px solid #003742;
+
+}
+a{
+    outline: none;
+    text-decoration: none;
+}
+.titulo a:visited{
+
+    color: white;
+    
+
+}
+
+#parte_2{
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right,transparent, 20%, black);
+    text-align: right;
+    align-content: center;
+
+
+    
+
+    h2{
+
+        color: white;
+        font-size: 2rem;
+        font-family: 'Times New Roman', Times, serif;
+        margin-right: 30px;
+
+    }
+
+    p{
+        
+        color: white;
+        
+        margin-left: 60%;
+        margin-right: 10px;
+
+    }
+
+}
+#hr_1{
+
+    border: 3px solid black;
+    margin-bottom: 0;
+
+}
+hr{
+
+    border: 2px solid black;
+    width: 97%;
+    margin-top: 4px;
+    
+
+}
+#publicaciones{
+
+    margin-top: 50px;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+ 
+.publicacion{
+
+   
+    
+    img{
+
+        height: 45%;
+        width: 100%;
+
+    }
+    p{
+
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+
+    }
+
+}
+a{
+    text-decoration: none;
+    width: 40%;
+    margin: 1%;
+
+}
+a:visited{
+
+    color: black;
+
+}
+a:hover{
+
+    transition: 0.5s;
+    transform: scale(1.1);
+    text-decoration: underline;
+
+}
+@media (max-width: 20rem){
+
+    a{
+
+        width: 90%;
+
+    }
+
+    
+
+}
